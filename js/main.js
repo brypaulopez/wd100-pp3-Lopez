@@ -306,6 +306,5 @@ searchItem.addEventListener("submit", (e) => {
     filterSearch();
   });
 
-
 changeClass();
 showCart();
