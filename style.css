@@ -227,4 +227,46 @@ button , .btn {
     .col-footer {
         display: none;
     }
+    #firstOverlay h2{
+        width: 100%;
+        font-size: 30px !important;
+      }
+      #firstOverlay p {
+          padding-top: 50px !important;
+          width: 100%;
+          font-size: 15px !important;
+        }
+      .col-footer {
+          display: none;
+      }
+  }
+  @media only screen and (max-width: 400px) {
+    /* For mobile phones: */
+    #firstOverlay h2{
+      width: 100%;
+      font-size: 30px !important;
+    }
+    #firstOverlay p {
+        padding-top: 50px !important;
+        width: 100%;
+        font-size: 15px !important;
+      }
+    .col-footer {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    /* For mobile phones: */
+    #firstOverlay h2{
+        width: 100%;
+        font-size: 20px !important;
+      }
+      #firstOverlay p {
+        padding-top: 50px !important;
+          width: 100%;
+          font-size: 10px !important;
+        }
+      .col-footer {
+          display: none;
+      }
   }
