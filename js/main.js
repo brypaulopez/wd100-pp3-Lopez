@@ -8,6 +8,7 @@ let signupItem = document.querySelector("#signupForm");
 let specificDesc = document.querySelector("#specificBrand");
 
 const addToCart = (image, name, price, desc) => {
+    alert("Item added to cart!");
     cartItems.push({cart_image: image, cart_name: name, cart_price: price, cart_desc: desc});
     localStorage.setItem("shopping_cart", JSON.stringify(cartItems));
     showCart();
@@ -15,6 +16,7 @@ const addToCart = (image, name, price, desc) => {
 }
 
 const removeItem = (close) => {
+    alert("Item removed to cart.");
     cartItems.splice(close, 1);
     localStorage.setItem("shopping_cart", cartItems);
     showCart();
