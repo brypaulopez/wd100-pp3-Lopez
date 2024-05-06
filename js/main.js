@@ -286,7 +286,7 @@ const specificBrand = (num) => {
                 <img src="${filterSearch[index].product_image}" alt="">
                 <div class="card-body">
                     <h5 class="card-title">${filterSearch[index].product_name}</h5>
-                    <h6>&#8369;${filterSearch[index].product_price}</h6>
+                    <h3>&#8369;${filterSearch[index].product_price}</h3>
                     <p class="card-text">
                         ${filterSearch[index].product_desc}
                     </p>
