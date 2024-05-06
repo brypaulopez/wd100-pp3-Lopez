@@ -34,8 +34,8 @@ const changeClass = () => {
 
 const showCart = () => {
     let x = 0;
-    if (cartItems == 0) {
-        cartContainer.innerHTML = "";
+    if (cartItems.length == 0) {
+        cartContainer.innerHTML = `<h2>Cart is Empty!</h2>`;
     }
     else {
         cartContainer.innerHTML = `
