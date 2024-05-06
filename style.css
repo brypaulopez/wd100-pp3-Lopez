@@ -1,0 +1,223 @@
+/* default css */
+footer {
+    background-color: #606B31;
+}
+footer a {
+    color: white;
+}
+footer li {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+label {
+    font-family: "Poppins", sans-serif;
+}
+li {
+    font-family: "Poppins", sans-serif;
+    padding: 5px;
+}
+button {
+    font-family: "Poppins", sans-serif;
+    background-color: #96806c !important;
+    border: 0 !important;
+}
+p {
+    font-family: "Poppins", sans-serif;
+}
+span {
+    font-family: "Poppins", sans-serif;
+}
+button , .btn {
+    font-family: "Russo One", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+#navBar a {
+    text-decoration: none ;
+    color: black ;
+}
+
+/* 
+ */
+ .navbar-brand img {
+    width: 100px; height: 90px;
+}
+#navBar {
+    background-color: #F9F8E4 !important;
+}
+.fa-cart-arrow-down {
+    color: #606B31 !important;
+}
+#firstImage {
+    position: relative;
+}
+#firstOverlay {
+    z-index: 100; top: 0;
+    position: absolute;
+    color: white;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#firstOverlay h2 {
+    font-size: 100px;
+    padding: 0; margin: 0;
+}
+#firstOverlay p {
+    padding: 0; margin: 0;
+    font-size: 30px;
+}
+#firstOverlay .btn {
+    font-size: 20px;
+}
+#searchButton {
+    
+}
+#secondList a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #36422e;
+    border: solid 1px black;
+    width: 150px;
+}
+#secondList a:hover {
+    background-color: #36422e;
+    color: white;
+    transform: translateY(-2px);
+}
+.thirdPart h3 {
+    font-size: 50px;
+}
+#thirdCol1st {
+    padding: 150px !important;
+}
+.box-img {
+    padding: auto; margin: auto;
+    padding-left: 0 !important;
+}
+.box-img img{
+    height: 200px;
+}
+.car-indi2 button {
+    background-color: black !important;
+}
+.img-text {
+    padding-bottom: 40px !important;
+}
+.col-footer li a{
+    text-decoration: none;
+}
+.col-footer li a:hover{
+    text-decoration:underline;
+}
+
+.card-body {
+    height: 190px;
+}
+#showBtn {
+    position: absolute;
+    bottom: 5px;
+}
+.logo-footer {
+    width: 50px; height: 50px;
+}
+#bagFeature {
+    height: 300px;
+}
+#bagFeature img {
+    object-fit: cover;
+}
+#bagText {
+    padding-top: 90px !important;
+    height: 300px;
+}
+/* SIGN UP PAGE */
+.overlay {
+    background-color: rgba(255, 255, 255, 0.7);
+    top: 0; z-index: 1000;
+    width: 100%; height: 100%;
+    margin: auto;
+}
+.signupText {
+    position: absolute;
+    top: 350px;
+    background-color: white;
+}
+.signupText p {
+    padding: 0; margin: 0;
+    background-color: white;
+    font-size: 30px;
+}
+.signupText h2 {
+    padding: 0; margin: 0;
+    background-color: white;
+    font-size: 60px;
+}
+.closeBtn button{
+    background-color: white !important;
+    position: absolute;
+    right: 0;
+}
+#form-groups {
+    width: 500px;
+    margin: auto;
+}
+#form-groups input {
+    background-color: white;
+    background-image: url(https://brypaulopez.github.io/Elevated-CRM/assets/images/mailicon.png);
+    background-size: 30px 20px;
+    background-position: 5px 8px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+#buttonM {
+    font-size: 25px;
+    width: 100%;
+}
+#buttonM:hover {
+    color: white;
+    transform: translateY(2px);
+}
+.fa-circle-xmark:hover {
+    transition: 1s;
+    transform: rotate(180deg);
+}
+.cartLogoRed {
+    color: red !important;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #firstOverlay h2{
+      width: 100%;
+      font-size: 50px !important;
+    }
+    #firstOverlay p {
+        padding-top: 80px !important;
+        width: 100%;
+        font-size: 30px !important;
+      }
+    #firstOverlay .btn {
+        font-size: 15px;
+    }
+    .col-footer {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    #firstOverlay h2{
+      width: 100%;
+      font-size: 50px !important;
+    }
+    #firstOverlay p {
+        width: 100%;
+        font-size: 30px !important;
+      }
+    .col-footer {
+        display: none;
+    }
+  }
