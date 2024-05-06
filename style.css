@@ -153,6 +153,7 @@ button , .btn {
     background-color: white;
     font-size: 60px;
 }
+
 .closeBtn button{
     background-color: white !important;
     position: absolute;
@@ -242,6 +243,12 @@ button , .btn {
   }
   @media only screen and (max-width: 400px) {
     /* For mobile phones: */
+    #form-groups {
+        width: 370px !important;
+    }
+    .signupText {
+        width: 100% !important;
+    }
     #firstOverlay h2{
       width: 100%;
       font-size: 30px !important;
@@ -257,6 +264,13 @@ button , .btn {
   }
   @media only screen and (max-width: 320px) {
     /* For mobile phones: */
+    #form-groups {
+        width: 320px !important;
+    }
+    .signupText {
+        width: 100% !important;
+        margin: auto !important;
+    }
     #firstOverlay h2{
         width: 100%;
         font-size: 20px !important;
