@@ -73,9 +73,6 @@ button , .btn {
 #firstOverlay .btn {
     font-size: 20px;
 }
-#searchButton {
-    
-}
 #secondList a {
     list-style-type: none;
     text-decoration: none;
@@ -217,6 +214,16 @@ button , .btn {
         width: 100%;
         font-size: 30px !important;
       }
+    .col-footer {
+        display: none;
+    }
+  }
+  @media only screen and (max-width: 420px) {
+    /* For mobile phones: */
+    #thirdCol1st {
+        width: 100%;
+        padding: 5px !important;
+    }
     .col-footer {
         display: none;
     }
